@@ -1,0 +1,16 @@
+<service>
+  <id>WebPageMonitorApp</id>
+  <name>Web Page Monitor Spring App</name>
+  <description>Spring Boot application running as a Windows service</description>
+  <executable>javaw</executable>
+  <arguments>-jar C:\Tools\web-page-monitor-service-1.0.0.jar -Dspring.mail.password="gtlc unrk mglk owhl"</arguments>
+  <logpath>C:\Tools\logs</logpath>
+  <log mode="roll-by-size">
+    <sizeThreshold>10240</sizeThreshold>
+    <keepFiles>8</keepFiles>
+  </log>
+  <startmode>Automatic</startmode>
+  <depend>Tcpip</depend>
+  <onfailure action="restart" delay="10 sec"/>
+  <resetfailure>1 hour</resetfailure>
+</service>

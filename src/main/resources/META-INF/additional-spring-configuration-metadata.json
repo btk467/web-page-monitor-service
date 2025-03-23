@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "monitor.url",
+    "type": "java.lang.String",
+    "description": "A description for 'monitor.url'"
+  },
+  {
+    "name": "alert.email",
+    "type": "java.lang.String",
+    "description": "A description for 'alert.email'"
+  },
+  {
+    "name": "monitor.text",
+    "type": "java.lang.String",
+    "description": "A description for 'monitor.text'"
+  },
+  {
+    "name": "monitor.checkIntervalHours",
+    "type": "java.lang.String",
+    "description": "A description for 'monitor.checkIntervalHours'"
+  }
+]}
